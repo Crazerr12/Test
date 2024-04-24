@@ -15,7 +15,7 @@ class FeaturePresentationConventionPlugin : Plugin<Project> {
                 sourceSets.apply {
                     getByName("commonMain").apply {
                         dependencies {
-//                            implementation(project(":common:core:compose"))
+                            implementation(project(":common:core:compose"))
                             implementation(project(":common:core:utils"))
                         }
                     }

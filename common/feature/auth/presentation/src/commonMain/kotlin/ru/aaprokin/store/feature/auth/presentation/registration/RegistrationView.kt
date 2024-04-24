@@ -37,7 +37,7 @@ private fun RegistrationViewContent(
 //            .navigationBarsWithIme()
         ,
         topBar = {
-//            EkfToolbar(
+//            AppToolbar(
 //                onNavigationClick = {
 //                    obtainViewAction(RegistrationViewAction.BackClicked)
 //                },
@@ -63,7 +63,7 @@ private fun RegistrationViewContent(
 //        DataStateFoldView(
 //            dataState = DataState.Loading<String>(), // TODO change state
 //            error = { title, description ->
-//                EkfScreenError(
+//                AppScreenError(
 //                    modifier = Modifier
 //                        .fillMaxSize()
 //                        .padding(innerPadding)
@@ -76,7 +76,7 @@ private fun RegistrationViewContent(
 //                )
 //            },
 //            loading = {
-//                EkfScreenLoading(
+//                AppScreenLoading(
 //                    modifier = Modifier
 //                        .fillMaxSize()
 //                        .padding(innerPadding)

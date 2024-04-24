@@ -1,9 +1,9 @@
 [versions]
-activityCompose = "1.8.2"
+activityCompose = "1.9.0"
 agp = "8.3.1"
 compose = "1.6.1"
 composeCompiler = "1.5.11"
-coreKtx = "1.12.0"
+coreKtx = "1.13.0"
 coroutines = "1.8.0"
 decompose = "2.2.2-compose-experimental"
 desugaring = "2.0.4"
@@ -17,7 +17,9 @@ ksp = "1.9.23-1.0.19"
 ktor = "2.3.9"
 serialization = "1.6.3"
 splashScreen = "1.0.1"
-androidx-paging = "3.3.0-alpha05"
+androidx-paging = "3.3.0-beta01"
+uiToolingPreviewDesktop = "1.6.6"
+uiToolingPreviewAndroid = "1.6.6"
 
 [libraries]
 compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
@@ -61,6 +63,8 @@ kotlin-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-pl
 ksp-gradlePlugin = { group = "com.google.devtools.ksp", name = "com.google.devtools.ksp.gradle.plugin", version.ref = "ksp" }
 serialization-gradlePlugin = { group = "org.jetbrains.kotlin", name = "kotlin-serialization", version.ref = "kotlin" }
 compose-gradlePlugin = { group = "org.jetbrains.compose", name = "compose-gradle-plugin", version.ref = "compose" }
+androidx-ui-tooling-preview-desktop = { group = "androidx.compose.ui", name = "ui-tooling-preview-desktop", version.ref = "uiToolingPreviewDesktop" }
+androidx-ui-tooling-preview-android = { group = "androidx.compose.ui", name = "ui-tooling-preview-android", version.ref = "uiToolingPreviewAndroid" }
 
 [bundles]
 compose = ["compose-ui", "compose-ui-tooling", "compose-ui-tooling-preview", "compose-foundation", "compose-material", "compose-activity"]

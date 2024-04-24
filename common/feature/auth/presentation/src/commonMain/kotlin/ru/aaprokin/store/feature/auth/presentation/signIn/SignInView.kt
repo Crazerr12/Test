@@ -41,7 +41,6 @@ private fun SignInViewContent(
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-
             Button(
                 modifier = Modifier.fillMaxWidth(),
                 onClick = {
@@ -51,7 +50,6 @@ private fun SignInViewContent(
                 Text("Регистрация")
             }
         }
-
     }
 }
 

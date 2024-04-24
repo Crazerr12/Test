@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_not_bound_error">Поле обязательно для заполнения</string>
+    <string name="default_invalid_error">Поле заполнено неверно</string>
+    <string name="default_email_invalid_error">Неверный формат e-mail</string>
+    <string name="default_unknown_error">Произошла неизвестная ошибка</string>
+
+    <string name="screen_error_title">Что-то пошло не так</string>
+    <string name="screen_error_description">Попробуйте обновить страницу</string>
+
+    <string name="screen_network_error_title">Похоже, пропал интернет</string>
+    <string name="screen_network_error_description">Проверьте интернет и перезагрузите страницу</string>
+
+    <string name="screen_error_retry">Обновить</string>
+</resources>

@@ -20,7 +20,7 @@ class MultiplatformComposeConventionPlugin : Plugin<Project> {
             extensions.configure<KotlinMultiplatformExtension> {
                 sourceSets.maybeCreate("androidMain").dependencies {
                     implementation(libs.findLibrary("koin.compose").get())
-//                    implementation(libs.findBundle("compose").get())
+                    implementation(libs.findBundle("compose").get())
                 }
                 sourceSets.maybeCreate("commonMain").dependencies {
                     implementation(libs.findLibrary("koin.core").get())

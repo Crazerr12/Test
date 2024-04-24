@@ -56,10 +56,10 @@ private fun RootCoordinatorContent(
 //    toastState: ToastState
 //) {
 //    val contentPadding: PaddingValues = WindowInsets(
-//        left = EkfTheme.Dimens.offsetMedium,
+//        left = AppTheme.Dimens.offsetMedium,
 //        top = 0.dp,
-//        right = EkfTheme.Dimens.offsetMedium,
-//        bottom = EkfTheme.Dimens.offsetMedium
+//        right = AppTheme.Dimens.offsetMedium,
+//        bottom = AppTheme.Dimens.offsetMedium
 //    )
 //        .add(navigationBarsWithIme())
 //        .asPaddingValues()
@@ -80,12 +80,12 @@ private fun RootCoordinatorContent(
 //            modifier = Modifier
 //                .padding(contentPadding)
 //        ) {
-//            EkfIconTextSnackbar(
+//            AppIconTextSnackbar(
 //                modifier = Modifier
 //                    .fillMaxWidth(),
 //                icon = when (toastState.payload.level) {
-//                    ToastLevel.Success -> EkfSnackbarIcons.Success
-//                    ToastLevel.Danger -> EkfSnackbarIcons.Danger
+//                    ToastLevel.Success -> AppSnackbarIcons.Success
+//                    ToastLevel.Danger -> AppSnackbarIcons.Danger
 //                },
 //                text = when (val message = toastState.payload.message) {
 //                    is StringRes.Raw -> message.value ?: defaultUnknownError()
