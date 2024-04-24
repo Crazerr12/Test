@@ -1,0 +1,16 @@
+PODS:
+  - shared (0.0.1)
+
+DEPENDENCIES:
+  - shared (from `../common/umbrella/ios`)
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../common/umbrella/ios"
+
+SPEC CHECKSUMS:
+  shared: 4366c11889c615ea6735a3dd24ccdef8de96a208
+
+PODFILE CHECKSUM: 7c7a0485b06036a2b6a179260e2cc2fd78b04b66
+
+COCOAPODS: 1.15.2
