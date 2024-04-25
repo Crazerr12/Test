@@ -10,6 +10,7 @@ import platform.UIKit.UIViewController
 import ru.aaprokin.store.core.mediator.RootComponent
 import ru.aaprokin.store.core.mediator.RootCoordinator
 import ru.aaprokin.store.core.mediator.mediatorModule
+import ru.aaprokin.store.core.storage.iosStorageModule
 import ru.aaprokin.store.core.utils.utilsModule
 
 fun initKoin() {
@@ -17,7 +18,7 @@ fun initKoin() {
         modules(
             mediatorModule,
 //            networkModule,
-//            iosStorageModule,
+            iosStorageModule,
             utilsModule,
 //            iosUtilsModule
         )

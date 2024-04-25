@@ -33,7 +33,7 @@ kotlin {
             export(libs.essenty)
             export(project(":common:core:mediator"))
 //            export(project(":common:core:network"))
-//            export(project(":common:core:storage"))
+            export(project(":common:core:storage"))
             export(project(":common:core:utils"))
 
             export(project(":common:feature:auth:presentation"))
@@ -45,7 +45,7 @@ kotlin {
             dependencies {
                 implementation(project(":common:core:mediator"))
 //                implementation(project(":common:core:network"))
-//                implementation(project(":common:core:storage"))
+                implementation(project(":common:core:storage"))
                 implementation(project(":common:core:utils"))
 
                 implementation(project(":common:feature:auth:presentation"))
@@ -55,7 +55,7 @@ kotlin {
             dependencies {
                 api(project(":common:core:mediator"))
 //                api(project(":common:core:network"))
-//                api(project(":common:core:storage"))
+                api(project(":common:core:storage"))
                 api(project(":common:core:utils"))
 
                 api(project(":common:feature:auth:presentation"))

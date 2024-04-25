@@ -10,8 +10,8 @@ kotlin {
 
                 api(project(":common:core:mediator"))
                 api(project(":common:core:utils"))
-//
-//                implementation(project(":common:core:storage"))
+
+                implementation(project(":common:core:storage"))
 //                implementation(project(":common:core:network"))
             }
         }
@@ -22,10 +22,8 @@ kotlin {
                 api(libs.koin.android)
                 api(libs.decompose.jetbrains)
 
-
                 api(project(":common:core:utils"))
-//
-//                api(project(":common:core:compose"))
+                api(project(":common:core:compose"))
             }
         }
     }

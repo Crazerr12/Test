@@ -17,7 +17,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Store"
 include(":androidApp")
-//include(":shared")
 
 include(":common:core:storage")
 include(":common:core:network")
