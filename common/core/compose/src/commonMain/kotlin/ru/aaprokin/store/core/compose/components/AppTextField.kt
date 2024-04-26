@@ -11,7 +11,7 @@ import org.jetbrains.compose.resources.ExperimentalResourceApi
  */
 @OptIn(ExperimentalResourceApi::class)
 @Composable
-fun AppTextField(
+expect fun AppTextField(
     value: String,
     onValueChange: (String) -> Unit,
     modifier: Modifier = Modifier,
@@ -21,9 +21,7 @@ fun AppTextField(
     keyboardOptions: KeyboardOptions = KeyboardOptions.Default,
     keyboardActions: KeyboardActions = KeyboardActions(),
     behavior: TextFieldBehavior = TextFieldBehavior.Default,
-){
-
-}
+)
 
 sealed interface TextFieldBehavior {
     data object Default : TextFieldBehavior

@@ -14,7 +14,7 @@ import store.common.core.compose.generated.resources.ic_eye_open
  */
 @OptIn(ExperimentalResourceApi::class)
 @Composable
-fun AppTextFieldPassword(
+expect fun AppTextFieldPassword(
     value: String,
     onValueChange: (String) -> Unit,
     modifier: Modifier = Modifier,
@@ -24,7 +24,4 @@ fun AppTextFieldPassword(
     keyboardOptions: KeyboardOptions = KeyboardOptions.Default,
     keyboardActions: KeyboardActions = KeyboardActions(),
     behavior: TextFieldBehavior = TextFieldBehavior.Default,
-) {
-    // TODO
-    painterResource(Res.drawable.ic_eye_open)
-}
+)

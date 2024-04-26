@@ -4,14 +4,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 
 @Composable
-expect fun AppAlertDialog(
-    modifier: Modifier = Modifier,
+actual fun AppAlertDialog(
+    modifier: Modifier,
     onDismissRequest: () -> Unit,
     title: String,
-    description: String? = null,
+    description: String?,
     positiveButtonText: String,
-    positiveButtonOnClick: () -> Unit = {},
+    positiveButtonOnClick: () -> Unit,
     negativeButtonText: String,
-    negativeButtonOnClick: () -> Unit = {},
-    positiveButtonLoading: Boolean = false,
-)
+    negativeButtonOnClick: () -> Unit,
+    positiveButtonLoading: Boolean
+) {
+}

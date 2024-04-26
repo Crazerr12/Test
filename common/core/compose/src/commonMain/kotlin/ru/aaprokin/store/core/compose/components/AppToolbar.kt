@@ -5,13 +5,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 
 @Composable
-fun AppToolbar(
+expect fun AppToolbar(
     modifier: Modifier = Modifier,
     title: String?,
     navigationIcon: NavigationIcon = NavigationIcon.Up,
     onNavigationClick: () -> Unit,
     extraContent: @Composable RowScope.() -> Unit = { },
-) = Unit
+)
 
 sealed interface NavigationIcon {
     data object Up : NavigationIcon
